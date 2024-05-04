@@ -1,5 +1,5 @@
 import globals from 'globals'
-import pluginJs from'@eslint/js'
+import pluginJs from '@eslint/js'
 import jest from 'eslint-plugin-jest'
 import path from 'node:path'
 import url from 'node:url'
@@ -17,4 +17,4 @@ export default [
   },
   pluginJs.configs.recommended,
   jest.configs['flat/recommended']
-];
+]
